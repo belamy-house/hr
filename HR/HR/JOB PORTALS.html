@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+          <link rel="icon" type="image/x-icon" href="../image/icon.ico">
+  <title>The Belamy House Portal</title>
+  <style>
+    body {
+      background: #fff5f7;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      text-align: center;
+    }
+    header {
+      background: #203047;
+      padding: 20px;
+    }
+    header img {
+      height: 70px;
+    }
+    h1 {
+      color: #203047;
+      margin-top: 30px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .tile {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+      transition: transform 0.2s ease;
+    }
+    .tile:hover {
+      transform: scale(1.03);
+    }
+    .tile a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .tile img {
+      height: 30px;
+      margin-bottom: 10px;
+    }
+    footer {
+      margin-top: 100px;
+      color: #bb2649;
+      font-size: 14px;
+      padding-bottom: 20px;
+    }
+    img{
+      width: auto;
+      height: 20%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- Company Logo -->
+    <img src="../image/tbh.png" alt="Belamy Logo">
+  </header>
+  <h1>Welcome to The Belamy House Portal</h1>
+
+  <div class="grid">
+    <div class="tile"><a href="https://employers.indeed.com/jobs?status=open%2Cpaused&claimed=false&createdOnIndeed=true&tab=0&sortDirection=DESC&sortField=datePostedOnIndeed&from=gnav-util-one-host" target="_blank">INDEED</a></div>
+    <div class="tile"><a href="https://ph.employer.seek.com/dashboard" target="_blank">JOBSTREET</a></div>
+    <div class="tile"><a href="https://www.linkedin.com/feed/" target="_blank">LINKEDIN</a></div>
+    <div class="tile"><a href="https://portal.prosple.com/applicants/?start=0" target="_blank">PROSPLE</a></div>
+    <div class="tile"><a href="https://employer.jora.com/ph/login" target="_blank">JORA</a></div>
+  </div>
+  <br>
+  <footer>
+    <p>© 2025 The Belamy House. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
